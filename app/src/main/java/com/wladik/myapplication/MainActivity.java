@@ -58,6 +58,10 @@ public class MainActivity extends AppCompatActivity {
                     username = "";
                     login_name.setText("");
                 }
+
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                startActivity(intent);
+
             }
 
         });

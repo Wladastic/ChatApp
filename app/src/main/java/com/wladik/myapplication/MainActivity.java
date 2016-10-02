@@ -16,25 +16,25 @@ public class MainActivity extends AppCompatActivity {
 
         final Button send_button = (Button) findViewById(R.id.send_button);
         Button call_button = (Button) findViewById(R.id.call_button);
-        TextView text_view = (TextView) findViewById(R.id.text_view);
+        final TextView text_view = (TextView) findViewById(R.id.text_view);
 
-
+        text_view.setText("");
         send_button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v){
                 /**
                  * TODO: add a function that adds the Text to the textfield.
                  */
-                sendText();
+                sendText(text_view);
             }
 
     });
     }
-    private void sendText() {
+    private void sendText(TextView text_view) {
 
+        String text_to_send = "new text";
         // this does nothing, just a test:
-        findViewById(R.id.message_text).getTag();
-        findViewById(R.id.text_view);
+        text_view.setText(text_to_send);
 
     }
 

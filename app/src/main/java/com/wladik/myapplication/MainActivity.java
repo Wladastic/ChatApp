@@ -39,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
                     if (String.valueOf(message_text.getText()).length() > 0){
                         sendText(text_view, message_text, username);
                     }
+                } else {
+                    Intent intent = new Intent(MainActivity.this, LoginActivity.class);
+                    startActivity(intent);
                 }
 
             }

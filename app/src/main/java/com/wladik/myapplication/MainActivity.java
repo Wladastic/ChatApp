@@ -52,6 +52,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v){
                 /**
                  * TODO: make this get the username from LoginActivity.class!
+                 * TODO: let the Client get a login token by the Server which is saved on the Server and only works in the hour/day it was created.
+                 * TODO: or just use the device's imei or something....
                  */
                 if(username.equals("")) {
                     username = "wlad";

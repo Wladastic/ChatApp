@@ -86,9 +86,4 @@ public class MainActivity extends AppCompatActivity {
         text_view.setText(( old_text_view+ "\n" + username +":: " + text_to_send));
         message_text.setText("");
     }
-
-
-
-
-
 }

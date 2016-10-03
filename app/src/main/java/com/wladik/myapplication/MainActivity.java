@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View v){
                 /**
-                 * TODO: add a function that adds the Text to the textfield.
+                 * TODO: make this get the username from LoginActivity.class!
                  */
                 if(username.equals("")) {
                     username = "wlad";
@@ -73,7 +73,11 @@ public class MainActivity extends AppCompatActivity {
         login_name.setText(username);
     }
     private void sendText(TextView text_view, EditText message_text, String username) {
-
+        /**
+         * TODO: Send the message to the server, reference to which user it is sent.
+         * TODO: make a checker that does not allow more than 240 Characters, meaning message_text.length() must not exceed 240.
+         *
+         */
         String text_to_send = String.valueOf(message_text.getText());
         // this does nothing, just a test:
         String old_text_view = String.valueOf(text_view.getText());

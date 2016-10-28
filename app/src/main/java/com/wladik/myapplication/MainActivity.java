@@ -74,6 +74,7 @@ public class MainActivity extends AppCompatActivity {
     private void login(String username, TextView login_name) {
         login_name.setText(username);
     }
+
     private void sendText(TextView text_view, EditText message_text, String username) {
         /**
          * TODO: Send the message to the server, reference to which user it is sent.

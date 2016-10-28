@@ -1,5 +1,14 @@
 package com.wladik.myapplication;
 
+/**
+ * TODO : Hier möglicherweise Studentenhilfe, zB Bei VOrlesung Fotos machen, die automatisch am Rechner dann eingefügt werden.
+ *          Vielleicht einfach auch Ipad mitnehemn und darauf alles schreiben?
+ *
+ */
+
+
+
+
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
